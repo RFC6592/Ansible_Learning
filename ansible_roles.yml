@@ -1,0 +1,10 @@
+---
+- name: install and start apache
+  hosts: web
+  roles:
+    - common
+    - webservers
+    
+# Ansible roles : 
+# Group your tasks and variables of your automation in a reusable structure
+# Write roles once, and share them with others who have similar challenges in front of them
