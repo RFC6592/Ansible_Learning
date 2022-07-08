@@ -15,4 +15,4 @@ $ ansible-navigator run <playbook>
 
 
 $ ansible -m setup localhost
-$
+$  
