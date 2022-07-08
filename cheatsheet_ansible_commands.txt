@@ -1,0 +1,3 @@
+$ ansible-navigator
+$ ansible-navigator run <playbook> --mode stdout
+$ 
