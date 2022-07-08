@@ -1,0 +1,19 @@
+Roles Structure :
+
+ 1) Defaults: default variables with lowest
+ precedence (e.g. port)
+ 
+ 2) Handlers: contains all handlers
+ 
+ 3) Meta: role metadata including
+ dependencies to other roles
+ 
+ 4) Tasks: plays or tasks (main.yml)
+ tip: it's common to include tasks in
+ main.yml with "when" (e.g. OS == xyz)
+ 
+ 5) Templates: templates to deploy (e.g. vhost.conf.j2)
+ 
+ 6) Tests: place for playbook tests
+ 
+ 7) Vars: variables (e.g. override port)
