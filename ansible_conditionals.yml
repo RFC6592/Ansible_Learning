@@ -1,0 +1,13 @@
+---
+- name: variable playbook test
+  hosts: localhost
+  
+  vars: 
+    my_mood: happy
+    
+   tasks:
+     - name: task, based on my_mood var
+       debug:
+         msg: "Yay! I am {{ my_mood }}"
+       when: my_mood == "happy"
+       
