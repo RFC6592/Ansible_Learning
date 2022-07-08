@@ -1,3 +1,7 @@
 $ ansible-navigator
 $ ansible-navigator run <playbook> --mode stdout
-$ 
+
+-- Nothing will change, it's only in read only mode
+$ ansible-navigator run <playbook> --mode stdout --check
+
+$ ansible-playbook --help
