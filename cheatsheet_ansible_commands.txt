@@ -1,7 +1,18 @@
 $ ansible-navigator
 $ ansible-navigator run <playbook> --mode stdout
 
+-- Verbose
+$ ansible-navigator run <playbook> --mode stdout -v
+
+
 -- Nothing will change, it's only in read only mode
 $ ansible-navigator run <playbook> --mode stdout --check
 
 $ ansible-playbook --help
+
+-- It's good when we have a lot of modules
+$ ansible-navigator run <playbook>
+
+
+$ ansible -m setup localhost
+$
